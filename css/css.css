@@ -629,7 +629,7 @@ span {}
 }
 .check>ul>li:before {
         content:"";
-        background: url(../icon/check.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/check.png*/no-repeat;
+        background: url(../icon/check.png)no-repeat;
         float:left;
         width: 45px;
         height: 45px;
