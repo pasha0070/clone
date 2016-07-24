@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!-- -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="установка,прибыль,собственный бизнес,производство в гараже,строительный блок,теплоблок,производство теплоблоков,фундамент,керамзитоблок,полистиролбетон,арболит,опилкобетон,плитка тротуарная>
+	<meta name="description" content="Установка для производства строительных блоков, которая позволяет с минимальными вложениями запустить собственное производство буквально в гараже!">
+	<title>Установка для производства строительных блоков! Акция!</title>
+	<link href="css/css.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="http://allfont.ru/allfont.css?fonts=roboto-condensed" rel="stylesheet" type="text/css" />
+	<link href="http://allfont.ru/allfont.css?fonts=roboto-slab-regular" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<script src="js/jquery.min.js"></script>
+	<script>
+		function AjaxFormRequest(result_id,formMain,url) {
+			jQuery.ajax({
+			url: url,
+			type: "POST",
+			dataType: "html",
+			data: jQuery("#"+formMain).serialize(),
+			success: function(response) {
+			$(".resultOfSend").html(response);
+			document.getElementById(result_id).innerHTML = "Мы позвоним";
+			},
+			error: function(response) {
+			document.getElementById(result_id).innerHTML = "Возникла ошибка при отправке формы. Попробуйте еще раз";
+			}
+			});
+			$(':input','#'+formMain)
+			.not(':button, :submit, :reset, :hidden')
+			.val('')
+			.removeAttr('checked')
+			.removeAttr('selected');
+		}
+	</script>
+</head>
+<body>
+<div style="width:100%;height:125px; margin: 0 0 0px; background: #b90504;color:#fff;">
+	<div class="content">
+		<p style="font:14pt 'Roboto Slab Regular';display:inline;float:left;"><span style="text-transform:uppercase;font-size:20pt;">Интернет-магазин</span><br> качественного строительного<br> оборудования <br>с доставкой по России.</p>
+		<div style="display:inline;float:right;">
+		<p style="font:30pt 'Roboto Slab Regular';display:block;float:right;margin-bottom:0px;"><a class="top" href="tel:88001234567">8 (800) 550 35 75</a></p>
+		<p style="font:14pt 'Roboto Slab Regular';display:block;margin-top:-10px;margin-right:5px;text-align:right;">звонок по России бесплатный</p>
+		<p  style="font:14pt 'Roboto Slab Regular';display:block;float:right;margin-top:3px;border: 2px solid #fedddd; border-radius: 10px;padding:4px 8px;text-align:right;"><a class="top" href="#callOrder">Заказать звонок</a></p>
+		</div>
+	</div>
+</div>
+<header class="first"  id="callOrder">
+	<div class="content">
+		<div class="bonus">
+			<div class="timer-block">
+				<div class="timer">
+					<p style="font:20pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">До конца акции осталось</p>
+					<div class="time"><script src="http://megatimer.ru/s/b2d10f24f2cc866b9695d7572956cb80.js"></script></div>
+				</div>
+				<div class="input">
+					<span id="resultOfSend">Заполните форму и получите уникальное предложение!</span>
+					<form action="" class="form" method="post" id="formMain" style="padding:0 20px 20px">
+						<input name="name" placeholder="Введите имя" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="1_phone" name="phone" placeholder="Введите номер телефона" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input name="city" placeholder="Ваш город" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="button" type="button" style="display:block;padding:10px;text-align:center;border-radius:4px;border:1px solid darkred;background:darkred;font-weight:bold;font-size:24px;color:white;width:100%;cursor:pointer;"  onclick="AjaxFormRequest('', 'formMain', 'order.php');alert('Благодарим за обращение! Специалист свяжется с вами в ближайшее время!')" value="ПОЛУЧИТЬ СО СКИДКОЙ 52%!"/>
+					</form>
+				</div>
+			</div>
+			<div class="ustanovka">
+				<span class="top" style="font-size:40px;line-height:32px">УСТАНОВКА</span>
+				<span class="mid" style="font-size:34px;line-height:24px">для производства</span>
+				<span class="mid" style="font-size:28px;line-height:24px">строительных блоков</span>
+				<div class="blocksmin">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+				</div>
+				<span class="bottom">АКЦИЯ!</span>
+
+				<div class="complect">
+					<span class="top">полный комплект</span>
+					<span class="mid">всего за</span>
+					<span class="pay">2980 </span><span class="bottom">руб.</span>
+<span class="mid" style="padding-bottom:20px;text-decoration:line-through">6190 руб.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="second">
+	<div class="content">
+	<center>
+		<div class="block">
+			<span>Вы хотите построить коттедж за месяц? Потратив на стены всего<p>48 т.р.? Или хотите сделать из своего гаража заводик, приносящий доход как<p>настоящий завод?</span>
+		</div>
+		<div class="block">
+			<span>Построить коттедж выгоднее всего из теплоблоков. На материал для<p>теплоблоков для вашего коттеджа площадью 100 метров вы потратите всего<p>48 т.р.!</span>
+		</div>
+		<div class="help">
+			А сделать теплоблоки вам поможет
+			<p>установка для производства теплоблоков!</p>
+		</div>
+		<div class="acia">
+			<img src="img/acia.png-2.png">
+		</div>
+		<div class="timer2">
+			<span>Скидка действует в течение:</span>
+			<br><br>
+			<script src="http://megatimer.ru/s/b2d10f24f2cc866b9695d7572956cb80.js"></script>
+		</div>
+	</center>
+	</div>
+</div>
+<div class="third">
+	<div class="content">
+		<div class="tub">
+			<div class="left">
+				<ul class="ust">
+					<li><div><p>Время производства 1 теплоблока</p><p>всего 2-3 минуты</p><p class="info">(1 теплоблок заменяет 19 кирпичей, по теплоте</p><p class="info">1 теплоблок заменяет 75 см кирпичной кладки)</p></div></li>
+					<li><div><p>Промышленная установка стоит в 200-300 раз</p><p>дороже, а результат одинаковый!</p></div></li>
+					<li><div><p>За 10 дней вы легко  наготовите теплоблоков на строительство двухэтажного коттеджа площадью 100 м2</p></div></li>
+					<li><div><p>В установке применен запатентованный принцип клинового полусухого прессования, благодаря чему резко повышается прочность (1 блок выдерживает до 50 тонн!), достигается экономия цемента, </p></div></li>
+					<li><div><p>Для производства нужен обычный цемент и песок, а также плотный пенопласт для слоя утеплителя и арматура для армирования</p></div></li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul class="ust2">
+					<li><div><p>Постройте свой дом в 10 раз дешевле и в 10 раз быстрее! Или откройте в гараже заводик</p><p>по производству теплоблоков</p></div></li>
+					<li><div><p>Производительностью до 10 м2 теплоблоков в</p><p>день! 300 метров жилья в месяц</p></div></li>
+					<li><div><p>Необходимая площадь для производства - от<p>половины гаража (нужно всего 10 м2)</p></div></li>
+					<li><div><p>Обслуживание всего 1 человеком.</p><p>Вы сами легко научитесь делать теплоблоки</p><p>буквально за час.</p><p>У нас очень подробные и понятные инструкции.</p></div></li>
+					<li><div><p>Для запуска производства также вам потребуется</p><p>либо совковая лопата :), либо перфоратор с</p><p>насадкой для перемешивания бетона, либо</p><p>обычная небольшая бетономешалка.</p></div></li>
+				</ul>
+			</div>
+			<div class="bot">
+				<img src="icon/6.png"><p>Необходимое напряжение 220 вольт небольшой мощности, меньше чайника (600-800 вт). Работает циклично, поэтому реальный расход электричества будет всего 15-20 рублей в день!</p>
+			</div>
+		</div>
+		<div class="ustanovka2">
+			<p>Установка простая и надежная, и мы даем 100% гарантию, что вам понравится!<span>(или вернем деньги)</span></p>
+			<img src="img/money.jpg">
+		</div>
+		<p class="demo">Что можно сделать благодаря этой установке</p>
+		<ul class="circles">
+			<li>
+				<div class="circleBlocks"><img src="img/celblokdlafund.png"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Цельные бетонные блоки для фундамента</p>
+			</li>
+			<li>
+				<div class="circleBlocks"><img src="img/keramzitoblok.jpg"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Цельный керамзитоблок</p>
+			</li>
+			<li>
+				<div class="circleBlocks"><img src="img/polistirol.png"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Полистиролбетон (бетон с полистиролом)</p>
+			</li>
+			<li>
+				<div class="circleBlocks"><img src="img/arbolit.png"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Арболит (древесная щепа + бетон)</p>
+			</li>
+			<li>
+				<div class="circleBlocks"><img src="img/opilkobeton.png"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Опилкобетон (опилки + бетон)</p>
+			</li>
+			<li>
+				<div class="circleBlocks"><img src="img/1.png"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Плитка для парковок</p>
+			</li>
+			<li>
+				<div class="circleBlocks"><img src="img/trotuar.png"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Тротуарная плитка</p>
+			</li>
+			<li>
+				<div class="circleBlocks"><img src="img/teploblok.png"></div>
+				<p style="font:16pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">Теплоблок (бетон, полистирол, арматура)</p>
+			</li>
+		</ul>
+		<p class="demo">Вы будете производить</p>
+		<div class="circleBlockTwo"><img src="img/g1.png"></div>
+		<div class="blocks"><p>Размеры блока 390Х190Х150 мм, размер универсальный,</p><p>хорошо сочетается с керамзитоблоком (по длине и ширине кладки)</p>
+		</div>
+	</div>
+</div>
+
+<div class="firstTwo">
+	<div class="content">
+		<h1 class="mega">Сделать теплоблоки вам поможет</h1>
+		<div class="bonus">
+			<div class="timer-block">
+				<div class="timer">
+					<p style="font:20pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">До конца акции осталось</p>
+					<div class="time"><script src="http://megatimer.ru/s/b2d10f24f2cc866b9695d7572956cb80.js"></script></div>
+				</div>
+				<div class="input">
+					<span>Заполните форму и получите уникальное предложение!</span>
+					<form action="" class="form" method="post" id="formtwo" style="padding:0 20px 20px">
+						<input name="name" placeholder="Введите имя" required="" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="1_phone" name="phone" placeholder="Введите номер телефона" required="" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input name="city" placeholder="Ваш город" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="button" type="button" style="display:block;padding:10px;text-align:center;border-radius:4px;border:1px solid darkred;background:darkred;font-weight:bold;font-size:24px;color:white;width:100%;cursor:pointer;"  onclick="AjaxFormRequest('', 'formtwo', 'order.php');alert('Благодарим за обращение! Специалист свяжется с вами в ближайшее время!')" value="ПОЛУЧИТЬ СО СКИДКОЙ 52%!"/>
+					</form>
+				</div>
+			</div>
+			<div class="ustanovka">
+				<span class="top" style="font-size:40px;line-height:32px">УСТАНОВКА</span>
+				<span class="mid" style="font-size:34px;line-height:24px">для производства</span>
+				<span class="mid" style="font-size:28px;line-height:24px">строительных блоков</span>
+				<div class="blocksmin">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+				</div>
+				<span class="bottom">АКЦИЯ!</span>
+
+				<div class="complect">
+					<span class="top">полный комплект</span>
+					<span class="mid">всего за</span>
+					<span class="pay">2980 </span><span class="bottom">руб.</span>
+<span class="mid" style="padding-bottom:20px;text-decoration:line-through">6190 руб.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="fifth">
+	<div class="content">
+		<span>На установке можно производить разные изделия</span>
+		<div class="check">
+			<ul class="fadeInLeft">
+				<li>Теплоблок (с полистирольной прокладкой и арматурой)</li>
+				<li>Полистиролбетон (бетон с полистиролом)</li>
+				<li>Арболит (древесная щепа + бетон)</li>
+				<li>Опилкобетон (опилки + бетон)</li>
+			</ul>
+			<ul class="fadeInRight">
+				<li>Цельный керамзитоблок</li>
+				<li>Стеклобетон (внутри бетона пивные бутылки</li>
+				<li>Цельные бетонные блоки для фундамента</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="seventh">
+	<div class="content">
+		<div class="gall">
+			<div>
+				<img src="img/d1.jpg">
+				<p>Для 2 этажей достаточно выкладывать стену в 1 блок</p>
+			</div>
+			<div>
+				<img src="img/d2.jpg">
+				<p>По теплоте 1 блок заменяет 75 см кирпича</p>
+			</div>
+			<div>
+				<img src="img/d3.jpg">
+				<p>Теплоблоки не горят! (на фото жгут паяльной лампой блок 30 минут)</p>
+			</div>
+			<div>
+				<img src="img/d4.jpg">
+				<p>Очень прочные! 50 тонн выдерживает 1 блок</p>
+			</div>
+			<div>
+				<img src="img/d5.jpg">
+				<p>Произвести блоков на дом можно за 10 дней! И сложить за 10 дней!</p>
+			</div>
+			<div>
+				<img src="img/d6.jpg">
+				<p>Держат гвоздь - гиря 24 кг!</p>
+			</div>
+		</div>
+		<div class="why">
+			<h2>Почему нужно в 19 раз меньше блоков,
+				чем кирпичей?</h2>
+			<p>Поэтому вы экономите не только деньги, но и время.
+				Небольшая толщина стен дает дополнительную площадь дому
+				(примерно 16% по сравнению с простым кирпичем).<span class="p">
+Производитель установки получил награду "100 лучших товаров России"!</span></p>
+		</div>
+	</div>
+</div>
+<div class="eighth">
+	<div class="content">
+		<h1>Что вы получите в комплекте <span class="p">(с бонусами и массой подарков)?</span></h1>
+		<div class="gift">
+			<div class="lf">
+				<p>1 установка форма-опалубка для формовки теплоблоков
+					с клиновым тромбованием и немедленной распалубкой;
+				<p>2 трамбовочный пуансон;
+				<p>3 нож бетона для бетономешалки - обычную дешовую
+					бетономешалку превращает в дорогую производительную
+					бетономешалку принудительного типа (экономит цемент, ускоряет процесс, повышает качество);
+				<p>4 образцы базальтовой арматуры, микроарматуры, образцы
+					   базальтовой сетки (для кладки);
+				<p>5 пластификатор-усилитель (на 1 100-метровый дом);
+				<p>6 смазка для формы с ускорителем (на 1 дом);
+				<p>7 рецептура и технология теплоблока, полистиролбетона,
+					опилкобетона, керамзитоблока, самана, фундаментных блоков,
+					приготовления угловых теплоблоков
+				<p>8 документ о сертификации (для продажи блоков)
+				<p>9 технология дешевого очень теплого пола и очень надежного
+					дешевого безусадочного фундамента
+				<p>10 карточка на скидку 50% на микроарматуру и сетку базальтовую,
+					пластификатор и ускоритель бетона
+				<p>11 проекты недорогих домов</p>
+			</div>
+			<div class="ri">
+				<p>12 активатор воды магнитно-информационный  (усиливает бетон, повышает текучесть, экономит цемент)
+				<p>13 образцы эффективной рекламы для теплоблоков и строительства
+				<p>14 секреты выбора участков для строительства дома
+				<p>15 разрешение на использование бренда СУПЕР БЛОК
+				<p>16 технология крепления крыши
+				<p>17 технология вечной выгребной ямы
+				<p>18 варианты дешевой элитной отделки всего дома и интерьеров
+				<p>19 советы по налогообложению (как законно минимально платить налоги и когда можно работать без регистрации)
+				<p>20 готовый шаблон сайта по продаже теплоблоков
+				<p>21 договор продажи блоков и строительства
+				<p>22 технология крашеного бетона
+				<p>23 технология вечной штукатурки и вечной штукатурки фактурной (под шубу и т.д.)
+				<p>24 вакансия представителя стройхолдинга
+				<p>25 как сделать бесплатную рекламу блоков
+				<p>26 информационная поддержка по е-майл
+				<p>27 бизнес-план по продаже теплоблоков и строительства
+					(для получения дотаций из центра занятости 60-90 т.р., грантов, кредитов)
+			</div>
+		</div>
+		<div class="why">
+			<h2>27 секретов экономии на стройке</h2>
+			<p><span class="p">Как сделать, чтоб вас не обсчитали, не обманули и не обворовали строители и шабашники</span>
+				<span class="p">Как быстро сделать проект дома (под себя и клиента), секреты расчета прекрытий, вентиляций, комуникаций</span>
+				<span class="p">Как продлить ресурс бетономешалки в 8-9 раз</span>
+				<span class="p">Как делать блоки в любую погоду</span>
+				<span class="p">Как с теплоблоком сэкономить в 6-10 раз на стройке и построить в 10 раз дом быстрее</span>
+				<span class="p">Как почти бесплатно удвоить площадь дома (секреты мансарды)</span>
+				<span class="p">Как расчитать удобную лестницу</span>
+				<span class="p">Как дешево отапливать дом без газа</span>
+				<span class="p">Как сделать миниподъемник на стройке</span>
+				<span class="p">На что и как класть теплоблоки, чтобы не было мостиков холода</span></p>
+		</div>
+	</div>
+</div>
+<div class="firstTwo">
+	<div class="content">
+		<h1 class="mega">Сделать теплоблоки вам поможет</h1>
+		<div class="bonus">
+			<div class="timer-block">
+				<div class="timer">
+					<p style="font:20pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">До конца акции осталось</p>
+					<div class="time"><script src="http://megatimer.ru/s/b2d10f24f2cc866b9695d7572956cb80.js"></script></div>
+				</div>
+				<div class="input">
+					<span>Заполните форму и получите уникальное предложение!</span>
+					<form action="" class="form" method="post" id="formthree"  style="padding:0 20px 20px">
+						<input name="name" placeholder="Введите имя" required="" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="1_phone" name="phone" placeholder="Введите номер телефона" required="" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input name="city" placeholder="Ваш город" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="button" type="button" style="display:block;padding:10px;text-align:center;border-radius:4px;border:1px solid darkred;background:darkred;font-weight:bold;font-size:24px;color:white;width:100%;cursor:pointer;"  onclick="AjaxFormRequest('', 'formthree', 'order.php');alert('Благодарим за обращение! Специалист свяжется с вами в ближайшее время!')" value="ПОЛУЧИТЬ СО СКИДКОЙ 52%!"/>
+					</form>
+				</div>
+			</div>
+			<div class="ustanovka">
+				<span class="top" style="font-size:40px;line-height:32px">УСТАНОВКА</span>
+				<span class="mid" style="font-size:34px;line-height:24px">для производства</span>
+				<span class="mid" style="font-size:28px;line-height:24px">строительных блоков</span>
+				<div class="blocksmin">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+				</div>
+				<span class="bottom">АКЦИЯ!</span>
+
+				<div class="complect">
+					<span class="top">полный комплект</span>
+					<span class="mid">всего за</span>
+					<span class="pay">2980 </span><span class="bottom">руб.</span>
+<span class="mid" style="padding-bottom:20px;text-decoration:line-through">6190 руб.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ninth">
+	<div class="content">
+		<div class="right">
+			НА ПОЛИСТИРОЛЬНЫЙ ТЕПЛОБЛОК ПОСТАВИЛИ ТЯЖЕЛЫЙ КРАН
+			<iframe width="457" height="310" src="https://www.youtube.com/embed/LkVHbUtxiIk" tppabs="https://www.youtube.com/embed/LkVHbUtxiIk" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="left">
+			ОТКРОЙТЕ ТОЖЕ СВОЙ
+			ЗАВОДИК
+			ПО ПРОИЗВОДСТВУ ТЕПЛОБЛОКОВ
+			<iframe width="457" height="310" src="https://www.youtube.com/embed/JACzJPhA9pA" tppabs="https://www.youtube.com/embed/JACzJPhA9pA" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="right">
+			АРБОЛИТОВЫЕ И ПОЛИСТИРОЛЬНЫЕ БЛОКИ ПРОСТО ВЫГРУЖАЮТСЯ!
+			<iframe width="457" height="310" src="https://www.youtube.com/embed/ylwoRm2awng" tppabs="https://www.youtube.com/embed/ylwoRm2awng" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="left">
+			НА ВИДЕО ПОКАЗАН ВЕСЬ ПРОЦЕСС ПРОИЗВОДСТВА ПЕСКОБЛОКОВ
+			<iframe width="457" height="310" src="https://www.youtube.com/embed/ZtyszlpQGDY" tppabs="https://www.youtube.com/embed/ZtyszlpQGDY" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+<div class="ourRes">
+	<div class="content">
+		<h1>Выполненные работы наших заказчиков</h1>
+		<div class="ourResImg">
+			<img src="img/rab1.jpg">
+			<img src="img/rab2.jpg">
+			<img src="img/rab3.jpg">
+			<img src="img/rab4.jpg">
+		</div>
+	</div>
+</div>
+<div class="tenth">
+	<div class="content">
+		<h1>Нас выбирают люди</h1>
+		<div class="otziv">
+			<img src="img/o5.png">
+			<div class="otz"><span class="name">Павел Колесников, <span class="city">Москва:</span></span><br>
+				<span class="nB">"Приятно с вами иметь дело!"</span>
+				<p>Купил у  вас установку с вибропрессом, договорился с рабочими, они быстро разобрались, закупаю материалы, работа идет, они возвели стены буквально за несколько недель. Я просто счастлив! Делаю сейчас внутренний ремонт, скоро уже закончится, будем жить в доме, построенным недорого с вашей помощью, спасибо! Приятно с вами иметь дело!!!</p>
+			</div>
+		</div>
+		<div class="otziv">
+			<img src="img/o6.png">
+			<div class="otz"><span class="name">Дмитрий Гончаров, <span class="city">Казань:</span></span><br>
+				<span class="nB">"Рад работать с командой профессионалов!"</span>
+				<p>Приобрел в этом интернет – магазине установку для блоков, очень быстро доставили! Сделал заявку на сайте, менеджер по имени Эдуард перезвонил сразу, оформили заказ, предоплату в этом магазине не берут, оплатил при получении, прислали посылку, все в заводской упаковке, полный комплект: установка, характеристики, рецептура, сертификат качества, ну все что написано на сайте!!! Рад работать с командой профессионалов!    </p>
+			</div>
+		</div>
+		<div class="otziv">
+			<img src="img/o7.png">
+			<div class="otz"><span class="name">Диана Ким, <span class="city">Якутия:</span></span><br>
+				<span class="nB">"Мы очень рады что заказали именно здесь эту установку, этому магазину можно доверять!"</span>
+				<p>Всем привет, хочу порекомендовать это магазин! Муж заказал здесь установку и вибропресс, уже построили гараж, о котором долго мечтали. Оказывается на этой установке можно делать и фундамент, и плитку, цельные керамзитоблоки и не только… все выходит очень выгодно, не дорого! Можно реально сэкономить! Муж говорит, на качественном оборудовании всегда приятно работать и результат превзойдет все ожидания! Мы очень рады что заказали именно здесь эту установку, этому магазину можно доверять!   </p>
+			</div>
+		</div>
+		<div class="otziv">
+			<img src="img/o8.png">
+			<div class="otz"><span class="name">Владимир Николаевич, <span class="city">Ульяновск:</span></span><br>
+				<span class="nB">"Меня привлекло то, что это довольно дешево."</span>
+				<p></p>
+				<iframe width="350" height="197" src="https://www.youtube.com/embed/A4iunFG_cXI?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="otziv">
+			<img src="img/o1.png">
+			<div class="otz"><span class="name">Сергей Иванович, <span class="city">Чебоксары:</span></span><br>
+				<span class="nB">"Хочу увеличить оборот, заняться производством блоков серьезно."</span>
+				<p>Сначала, волновался. Думал, заказывать в интернете или нет, оказалось риска никакого! Никто не потребовал предоплаты, все оплатил при получении заказа, получил абсолютно всё, что обещали, плюс сделали дополнительную скидку на доставку! До такой степени увлекся, что в  гараже, который стоял без дела, начал заниматься производством блоков, не спеша, соблюдая рецептуру, которая  также пришла в комплекте с посылкой, блоки как заводские и ненужно никакой теплообработки. Решил подать бесплатное объявление на Авито, и начал продавать блоки, дела сейчас идут отлично, все свободное время трачу на изготовление, от покупателей отбоя нет, решил нанять рабочих, и думаю в этом интернет – магазине заказать еще установку! Хочу увеличить оборот, заняться производством блоков серьезно.  </p>
+			</div>
+		</div>
+		<div class="otziv">
+			<img src="img/o2.png">
+			<div class="otz"><span class="name">Елена Валерьевна, <span class="city">Кемерово:</span></span><br>
+				<span class="nB">"Всем рекомендую покупать установку здесь!"</span>
+				<p>Наш двухэтажный дом построен с помощью установки. Летом в доме прохладно и не душно, как будто дом дышит, а зимой прекрасно, тепло, и уютно, гораздо лучше, чем в панельных домах. Сами с мужем не раз перебивались съёмными квартирами в панельном доме. Наши друзья и родители живут в кирпичных домах,  теплоблоки ничем не отличаются от кирпича! Сама мерзлячка, но благодаря установке  для производства блоков, удалось построить теплый дом, зимой хожу в халате с босыми ногами и чувствую себя комфортно хоть за окном -29*. Всем рекомендую покупать установку здесь!   </p>
+			</div>
+		</div>
+		<div class="otziv">
+			<img src="img/o3.png">
+			<div class="otz"><span class="name">Валерий Сухачёв, <span class="city">Сочи:</span></span><br>
+				<span class="nB">"Люди советую всем, сэкономите кучу денег!"</span>
+				<p>Классная вещь, с братом начали делать блоки из разных материалов, даже плитку дворовую делали, все прям как заводские получаются, а стоимость выходит копеечная, приятно! Поняли, что наштамповать нужно побольше, реально примерно неделю занимает, чтобы на дом хватило. Люди советую всем, сэкономите кучу денег!!!!!!!!!</p>
+			</div>
+		</div>
+		<div class="otziv">
+			<img src="img/o4.png">
+			<div class="otz"><span class="name">Анатолий Николаевич, <span class="city">Уфа:</span></span><br>
+				<span class="nB">"Спасибо этому магазину за качественный товар."</span>
+				<p>Давно договорился с отцом сделать пристройку к их дому, все некогда было, и денег не хватало. Случайно в инете прочитал про установку, позвонил в этот магазин, переговорил с менеджером и понял, что можно здорово сэкономить, по соотношению цена – качество прекрасный вариант! Могу сказать, что уже крышу делаем. Родители довольны, а мы с женой задумались над постройкой гаража. Спасибо этому магазину за качественный товар.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="howWeWork">
+	<div class="content">
+		<h1>Как мы работаем</h1>
+		<center>
+		<ul class="hwwImg">
+			<li>
+				<img src="img/hw1.png">
+				<p>Вы оставляете бесплатную заявку на нашем сайте</p>
+			</li>
+			<li>
+				<img src="img/hw2.png">
+				<p>В течении 10 минут с Вами свяжется наш менеджер</p>
+			</li>
+			<li>
+				<img src="img/hw3.png">
+				<p>Договариваетесь о месте доставки товара</p>
+			</li>
+			<li>
+				<img src="img/hw4.png">
+				<p>Мы отправляем посылку по вашему адресу 1 классом</p>
+			</li>
+			<li>
+				<img src="img/hw5.png">
+				<p>Вы получаете посылку и оплачиваете товар на месте</p>
+			</li>
+		</ul>
+		</center>
+	</div>
+</div>
+<div class="tenth">
+	<div class="content">
+		<h1>Мнение профессионалов</h1>
+		<div class="otzivProf">
+			<img src="img/op1.png">
+			<div class="otzP"><span class="nameProf">Марк  Ломтадзе<br><span class="cco">генеральный директор “Казаньсиппанели”</span></span>
+				<p>Наша компания сотрудничает с производителем – Компанией “Блокидом.рф” на протяжении года. За это время компания зарекомендовала себя как надежный поставщик качественного оборудования. Все вопросы относительно поставки оборудования решались в кратчайшие сроки. Рекомендую  Компаниию “Блокидом.рф” как профессионального партнера.</p>
+			</div>
+		</div>
+		<div class="otzivProf">
+			<img src="img/op2.png">
+			<div class="otzP"><span class="nameProf">Олег Михайлович <br><span class="cco">индивидуальный предприниматель</span></span>
+				<p>ИП Рожков О.М.  имеет положительный опыт сотрудничества с Компанией “Блокидом.рф” При покупке этой установки Вы экономите не только деньги, но и время. Небольшая толщина стен дает дополнительную площадь дому примерно 16% по сравнению с простым кирпичом. Производитель установки получил награду "100 лучших товаров России"! Оптимальный размер и толщина самого блока, обеспечивающие приемлемый вес и сочетание со всеми размерами кирпича. Блоки можно делать из любой смеси с минимальным содержанием цемента: шлакобетона, керамзитобетона, арболитобетона или пескобетона.</p>
+			</div>
+		</div>
+		<div class="otzivProf">
+			<img src="img/op3.png">
+			<div class="otzP"><span class="nameProf">Суворов Максим Юрьевич <br><span class="cco">главный инженер “Поволжьестрой</span></span>
+				<p>Компания Поволжьестрой рекомендует Компанию“Блокидом.рф” как надежного и проверенного поставщика. Благодарим за оперативную работу и своевременную поставку. Желаем Вам процветания и хороших клиентов!</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="howWeWork">
+	<div class="content">
+		<h1>Наши преимущества</h1>
+		<center>
+		<ul class="prImg">
+			<li>
+				<img src="img/pr1.png">
+				<p>Гарантия возврата денег</p>
+			</li>
+			<li>
+				<img src="img/pr2.png">
+				<p>Без предоплаты</p>
+			</li>
+			<li>
+				<img src="img/pr3.png">
+				<p>Доставка в любую точку России</p>
+			</li>
+		</ul>
+		</center>
+	</div>
+</div>
+<div class="firstTwo" id="callOrder2">
+	<div class="content">
+		<h1 class="mega">Сделать теплоблоки вам поможет</h1>
+		<div class="bonus">
+			<div class="timer-block">
+				<div class="timer">
+					<p style="font:20pt 'Roboto Slab Regular';display:inline;display:block;color:#000;text-align:center;">До конца акции осталось</p>
+					<div class="time"><script src="http://megatimer.ru/s/b2d10f24f2cc866b9695d7572956cb80.js"></script></div>
+				</div>
+				<div class="input">
+					<span>Заполните форму и получите уникальное предложение!</span>
+					<form action="" class="form" method="post" id="formfour" style="padding:0 20px 20px">
+						<input name="name" placeholder="Введите имя" required="" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="1_phone" name="phone" placeholder="Введите номер телефона" required="" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input name="city" placeholder="Ваш город" type="text" style="display:block;padding:10px;text-align:center;font-size:16px;border-radius:4px;border:1px solid #cecece;margin: 0 0 20px;width:95%;"/>
+						<input id="button" type="button" style="display:block;padding:10px;text-align:center;border-radius:4px;border:1px solid darkred;background:darkred;font-weight:bold;font-size:24px;color:white;width:100%;cursor:pointer;"  onclick="AjaxFormRequest('', 'formfour', 'order.php');alert('Благодарим за обращение! Специалист свяжется с вами в ближайшее время!')" value="ПОЛУЧИТЬ СО СКИДКОЙ 52%!"/>
+					</form>
+				</div>
+			</div>
+			<div class="ustanovka">
+				<span class="top" style="font-size:40px;line-height:32px">УСТАНОВКА</span>
+				<span class="mid" style="font-size:34px;line-height:24px">для производства</span>
+				<span class="mid" style="font-size:28px;line-height:24px">строительных блоков</span>
+				<div class="blocksmin">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+					<img src="img/blok.jpg">
+				</div>
+				<span class="bottom">АКЦИЯ!</span>
+
+				<div class="complect">
+					<span class="top">полный комплект</span>
+					<span class="mid">всего за</span>
+					<span class="pay">2980 </span><span class="bottom">руб.</span>
+<span class="mid" style="padding-bottom:20px;text-decoration:line-through">6190 руб.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="eighthTwo">
+	<div class="content">
+		<h1>О продукте</h1>
+		<div class="textLeft">
+			<p style="font:20pt 'Roboto Slab Regular';display:inline;float:left;">Подробную информацию мы всегда</p>
+			<p style="font:20pt 'Roboto Slab Regular';display:inline;float:left;">готовы предоставить по телефону:</p>
+			<p style="font:30pt 'Roboto Slab Regular';display:inline;float:left;"><a class="top" href="tel:88001234567">8 (800) 550 35 75</a></p>
+			<p style="font:14pt 'Roboto Slab Regular';display:inline;float:left;">звонок по России бесплатный</p>
+		</div>
+		<div class="imgRight"><img src="img/kladka.jpg"></div>
+	</div>
+</div>
+<footer class="footer">
+	<div class="content">
+		<div class="web-info">
+			Во исполнение требований Федерального закона «О персональных данных» № 152-ФЗ от 27.07.2006 г. Все персональные данные, полученные на этом сайте, не хранятся, не передаются третьим лицам, и используются только для отправки товара
+			<br>Копирование материалов с сайта запрещено. "БлокиДом" &copy; 2016 г.<br>
+			Создание сайта - <a href="http://Lyzhov.ru" title="Web-разработка" class="top" target="_blank">Лыжов</a>
+		</div>
+		<div class="guarantieee">
+			<img src="img/q1.png">
+			<img src="img/q2.png">
+		</div>
+		<div class="zakaz">
+			<p class="phone">8 (800) 550 35 75<br>
+			<span>по России бесплатно</span><br>
+			<a class="top" style="font-size:12pt;font-weight: 200;" href="#callOrder2">заказать звонок</a></p>
+			<br><br>
+		</div>
+	</div>
+</footer>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter38389585 = new Ya.Metrika({
+                    id:38389585,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/38389585" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+</body>
+</html>
+
+
+
+</body></html>
