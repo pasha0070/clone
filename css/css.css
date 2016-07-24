@@ -458,34 +458,34 @@ a.top:visited {
         margin-bottom: 31px;
 }
 .ust li:nth-child(1){
-        background: url(../icon/1.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/1.png*/ no-repeat;
+        background: url(../icon/1.png) no-repeat;
 }
 .ust li:nth-child(2){
-        background: url(../icon/2.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/2.png*/ no-repeat;
+        background: url(../icon/2.png) no-repeat;
 }
 .ust li:nth-child(3){
-        background: url(../icon/3.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/3.png*/ no-repeat;
+        background: url(../icon/3.png) no-repeat;
 }
 .ust li:nth-child(4){
-        background: url(../icon/4.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/4.png*/ no-repeat;
+        background: url(../icon/4.png) no-repeat;
 }
 .ust li:nth-child(5){
-        background: url(../icon/5.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/5.png*/ no-repeat;
+        background: url(../icon/5.png) no-repeat;
 }
 .ust2 li:nth-child(1){
-        background: url(../icon/7.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/7.png*/ no-repeat;
+        background: url(../icon/7.png) no-repeat;
 }
 .ust2 li:nth-child(2){
-        background: url(../icon/8.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/8.png*/ no-repeat;
+        background: url(../icon/8.png) no-repeat;
 }
 .ust2 li:nth-child(3){
-        background: url(../icon/9.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/9.png*/ no-repeat;
+        background: url(../icon/9.png) no-repeat;
 }
 .ust2 li:nth-child(4){
-        background: url(../icon/10.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/10.png*/ no-repeat;
+        background: url(../icon/10.png) no-repeat;
 }
 .ust2 li:nth-child(5){
-        background: url(../icon/11.png)/*tpa=http://xn--90acezeendb.xn--p1ai/icon/11.png*/ no-repeat;
+        background: url(../icon/11.png) no-repeat;
 }
 
 
@@ -683,7 +683,7 @@ ul.circles li {
  overflow: hidden;
  border:3px solid #980000;
  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
- 
+
 }
 .circleBlocks img {
 	margin-top: 30px;
@@ -704,7 +704,7 @@ ul.circles li {
  overflow: hidden;
  border:3px solid #980000;
  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
- 
+
 }
 .circleBlockTwo img {
 	margin-top: 10px;
@@ -912,13 +912,13 @@ ul.hwwImg {
 	margin: 0px auto 0 auto;
 	text-align:center;
 	margin-bottom:20px;
-	
+
 }
 ul.hwwImg li{
 	vertical-align:top;
 	display:inline-block;
 	margin:0 10px
-	
+
 }
 ul.hwwImg li img{
 	diaplay:block;
@@ -936,8 +936,8 @@ ul.prImg {
 	display:block;
 	margin: 0px auto 0px auto;
 	text-align:center;
-	
-	
+
+
 }
 ul.prImg li{
 	vertical-align:top;
