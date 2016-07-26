@@ -377,7 +377,7 @@ a.top:visited {
         letter-spacing: -1px;
         margin-left: 20px;
         box-shadow: 0px 2.9px 0px 0px #353641;
-        background-image: url(../img/point.png)/*tpa=http://xn--90acezeendb.xn--p1ai/img/point.png*/;
+        background-image: url(../img/point.png);
         background-repeat: no-repeat;
         background-position-x: 95%;
         background-position-y: 18px;
@@ -395,7 +395,7 @@ a.top:visited {
         padding-top: 20px;
         background: #f5f1e4;
         text-align: center;
-        background-image: url(../img/trg.png)/*tpa=http://xn--90acezeendb.xn--p1ai/img/trg.png*/;
+        background-image: url(../img/trg.png);
         background-position: bottom;
         background-repeat: repeat-x;
 }
