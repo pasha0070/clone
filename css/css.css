@@ -3,7 +3,22 @@
         src: url(fonts/FontAwesome.otf)
         src: local(pompadur), url(fonts/fontawesome-webfont.ttf)
 }
-
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+        url('../fonts/RobotoSlabRegular/roboto-slab-regular_87a1339b3350c29d2dd0d44a8f9b340e.woff') format('woff'),
+        url('../fonts/RobotoSlabRegular/roboto-slab-regular_87a1339b3350c29d2dd0d44a8f9b340e.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed'), local('RobotoCn-Regular'),
+        url('../fonts/RobotoCondensed/roboto-condensed_e1b97bc7787230fd2f8ad0588020342f.woff') format('woff'),
+        url('../fonts/RobotoCondensed/roboto-condensed_e1b97bc7787230fd2f8ad0588020342f.ttf') format('truetype');
+}
 
 
 body {
